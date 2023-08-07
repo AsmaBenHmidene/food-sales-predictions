@@ -22,21 +22,29 @@ For this dataset, there are 8523 rows and 12 columns.
 ## Methods
 To prepare this data, the data was cleaned, and the following processes were performed:
 ### Exploratory Data Analysis
-    - During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column. 
-    - Also, a barplot was visualized for each categorical column. 
+    - During the exploratory data analysis, a boxplot and histogram was visualized for numeric datatype column. 
+    - Also, a barplot was visualized for categorical column. 
     - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 
+#### Visual 1 
+![sample image](image0.png)
+
+> This histogram shows that the average of the sales are around $2,316.18.
+
+
 ## Results
+ ### Expanatory Data Analysis
+    - To visualize the data for explantory purposes, three bargraphs were chosen and one linegraph was chosen.
+    - The bargraphs were chosen to show how the categories compare to each other. 
+    - Finally, a linegraph was chosen to show the trend of salaries over the past three years. 
 
-### Here are examples of how to embed images from your sub-folder
-
-
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+#### Visual 1 
+![sample image](image3.png)
 
 > Sentence about visualization.
+> Sentence about visualization.
 
-#### Visual 2 Title
+#### Visual 2 
 
 ## Model
 
