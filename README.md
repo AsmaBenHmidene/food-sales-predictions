@@ -43,14 +43,14 @@ To prepare this data, the data was cleaned, and the following processes were per
 
 >Supermarket Type3 shows the highest sales average (3700).
 
->Supermarket Type 1 come in the second position (2400 sales' average) even though they are the main type among all outlets.
+>Supermarket Type 1 come in the second position (2400 sales' average) even though they are the main type among all outlets(65% Vs 11% for supermarket Type3).
 
 #### Visual 3 
 ![sample image](image2.png)
 
 >  Regular products represent the principle sales and more specifically seafood. Fruits and vegetables come in the second position even though they represent the main products offered for sales.
 
-> For Low fat item, starchy foods represent the most selled product..
+> For Low fat item, starchy foods represent the most selled product.
 
 #### Visual 4 
 ![sample image](image3.png)
@@ -102,8 +102,15 @@ This model is overfited, it makes good predictions on a training set, but poor p
 - The Final Model Chosen is the Linear Regression Model.
 
 ## Recommendations:
- The properties of products and outlets that play crucial roles in increasing sales are as follow:
- - 
+
+The properties of products and and outlets that play crucial roles in increasing sales are as follow:
+
+ 1. outlet types: since Supermarket Type3 shows the highest sales average (3700), it will be recommended to increase the number of this type of supermarket instead of Supermarket Type 3 which represent the main type among all outlets(65%). 
+    
+ 2. properties of products: >  Regular products represent the principle sales and more specifically seafood. Fruits and vegetables come in the second position even though they represent the main products offered for sales. 
+For Low fat item, starchy foods represent the most selled product.
+
+ 3. 
  
 
 
