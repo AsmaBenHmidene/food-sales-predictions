@@ -105,23 +105,24 @@ This model is overfited, it makes good predictions on a training set, but poor p
 
 The properties of products and and outlets that play crucial roles in increasing sales are as follow:
 
- 1. outlet types: since Supermarket Type3 shows the highest sales average (3700), it will be recommended to increase the number of this type of supermarket instead of Supermarket Type 3 which represent the main type among all outlets(65%). 
+ 1. Outlet types: since Supermarket Type3 shows the highest sales average (3700), it will be recommended to increase the number of this type of supermarket instead of Supermarket Type 1 which represent the main type among all outlets(65%). 
     
- 2. properties of products: >  Regular products represent the principle sales and more specifically seafood. Fruits and vegetables come in the second position even though they represent the main products offered for sales. 
+ 2. Properties of products: Regular products represent the principle sales and more specifically seafood. Fruits and vegetables come in the second position even though they represent the main products offered for sales in the outlets. Those products are essentials for daily food consumption 
 For Low fat item, starchy foods represent the most selled product.
 
- 3. 
+Fruits and vegetables, seafood and starchy foods are essentials products for daily food consumption, which explain why they represent the main sales in the outlets.
+
+ 4. From the correlation between outlets sales and MRP of product, we can conclude that Items with MRP between 140 and 270 represent the highest items'sales. It is recommended to increase the visibity of those products to increase outlets sales. 
  
-
-
+ 5. Model Performance
+- Overall, the best model is definitely the linear regression model, by far it outperformed the regression tree model.
 
 
 ## Limitations & Next Steps
 
-More of your own text here
+  Other factures can play an important role to confirm the proposed recommendation, for example, increasing the number of supermarket type 3 might be costy due to the dimension of those market or their location.Collecting more information will help to make a final decision. Therefore, as a next step, it will be recommended to study in deepth the sales in supermarket type 3 and considere it a model to ameliorate the sales in the other type of outlets.
 
 
 ### For further information
 
-
-For any additional questions, please contact **email**
+For any additional questions, please contact: Asma Ben Hmidene **asmabhpython@gmail.com**
