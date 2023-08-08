@@ -110,7 +110,7 @@ The properties of products and and outlets that play crucial roles in increasing
  2. Properties of products: Regular products represent the principle sales and more specifically seafood. Fruits and vegetables come in the second position even though they represent the main products offered for sales in the outlets. Those products are essentials for daily food consumption 
 For Low fat item, starchy foods represent the most selled product.
 
-Fruits and vegetables, seafood and starchy foods are essentials products for daily food consumption, which explain why they represent the main sales in the outlets.
+Fruits and vegetables, seafood and starchy foods are essentials products for daily food consumption, which explain why they represent the main sales in the outlets. It is recommended to increase the quantity of seafood presented for sales because according to data, seafood are the least frequent item in all outlets. 
 
  4. From the correlation between outlets sales and MRP of product, we can conclude that Items with MRP between 140 and 270 represent the highest items'sales. It is recommended to increase the visibity of those products to increase outlets sales. 
  
