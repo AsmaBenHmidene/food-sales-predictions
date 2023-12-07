@@ -101,6 +101,34 @@ This model is overfited, it makes good predictions on a training set, but poor p
 
 - The Final Model Chosen is the Linear Regression Model.
 
+## Impactful features of linear regression model:
+
+#### Visual 5 
+![sample image](image6.png)
+
+- the top 3 most impactful features are:
+     - Outlet_Type_Supermarket
+     - Item_fat_content
+     - item_type_hard drinks
+
+> All these 3 features impact positively the outlets' sales.
+
+> The 4 types of supermarket shows an almost equal coefficients, with the supertmarket type 3 being the largest and increase the sales by 2.955715e+16.
+
+> The 2 types of Item_fat_content (regular and low fat) shows also almost equal coefficients, with the regular item content being the largest and increase the sales by 1.357152e+16.
+
+> Among all the Item types: Hard drinks shows the largest coefficient and increase the sales by 9.048737e+15.
+
+#### Visual 6 
+![sample image](image7.png)
+
+- the top 5 most important features are:
+     - Item MRP
+     - Outlet_Type_Grocery store
+     - Item visibility
+     - Outlet_Type_Supermarket Type3
+     - item_Weight
+
 ## Recommendations:
 
 The properties of products and and outlets that play crucial roles in increasing sales are as follow:
