@@ -119,6 +119,8 @@ This model is overfited, it makes good predictions on a training set, but poor p
 
 > Among all the Item types: Hard drinks shows the largest coefficient and increase the sales by 9.048737e+15.
 
+## Important features of regression tree model:
+
 #### Visual 6 
 ![sample image](image7.png)
 
