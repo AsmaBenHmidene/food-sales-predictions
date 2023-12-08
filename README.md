@@ -131,6 +131,40 @@ This model is overfited, it makes good predictions on a training set, but poor p
      - Outlet_Type_Supermarket Type3
      - item_Weight
 
+## Explaining tree-based model with shap:
+### l-summary plot - with plot_type='bar':
+
+#### Visual 7 
+![sample image](image8.png)
+
+> The bar plot summary shows the average of the SHAP value for each feature across all samples. In this case, it is using the magnitude of the average SHAP values to to show which features had the biggest impact on the model's predictions. Based on the summary plot above, Item_MRP was the most important feature for predicting Item_outlet_sales. Next was outlet_type grocerystore and then outlet_type supermarket type3.
+
+> As we can see above, SHAP's importances differ from the built-in model importances from the 3rd most important feature. However, they shared the first and second most important features which are Item_MRP and outlet_type grocerystore.
+
+> Like feature importance, this visualization is not indicating which direction the features push the prediction.
+
+Let's remove the plot_type='bar' argument and examine the default plot type that will provide this information.
+
+### 2-summary plot - with plot_type='dot':
+
+#### Visual 8 
+![sample image](image9.png)
+
+Red means the feature value is higher:
+- If the red is on the right (positive), higher values of this feature increase the chance the prediction will be higher sales.
+- If the red is on the left (negative), higher values of this feature decrease the chances the prediction will be higher sales.
+
+The top 3 most important features and how they influence your model's predictions:
+- Item_MRP
+- Outlet_type grocery store
+- Outlet_type supermarket type3
+
+> A quick glance above shows that Item_MRP and Outlet_type grocery store are both very important, but they have opposite impacts.
+
+> According to our model, higher values item_MRP increases the chance of having higher item_outlet_sales, whereas, higher values for Outlet_type grocery store decreases the chance of having higher item_outlet_sales.
+
+> In the other hand, higher values for Outlet_type supermarket type3 increases the chance of having higher item_outlet_sales.
+
 ## Recommendations:
 
 The properties of products and and outlets that play crucial roles in increasing sales are as follow:
